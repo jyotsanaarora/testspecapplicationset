@@ -5,7 +5,7 @@ metadata:
   namespace: custom-argocd-ns
 spec:
   applicationSet:
-    enabled: true
+    enabled: false
     resources:
       limits:
         cpu: "2"
